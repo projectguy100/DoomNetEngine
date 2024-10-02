@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Logins For Habs</title>
+    <link rel="stylesheet" href="style.css"> <link>
+  </head>
+  <body>
+    <h1 class="Headings">Habs Logins</h1>
+    <h5 class="Headings">By Oliver.A, 7S</h5>
+    <br>
+    <p>All your Habs Shortcuts, there when you need them</p>
+    <br>
+    <script src="script.js"></script>
+    <button><a class="Anchor" href="https://habselstreeschools.fireflycloud.net/pupil-dashboard">FIREFLY LOGIN</a></button>
+    <br>
+    <br>
+    <button><a class="Anchor" href="https://www.socscms.com/SOCS">SOCS LOGIN</a></button>
+    <br>
+    <br>
+    <button><a class="Anchor" href="https://www.office.com/">OFFICE LOGIN</a></button>
+    <br>
+    <br>
+    <button><a class="Anchor" href="https://outlook.office.com/mail/">OUTLOOK</a></button>
+    <br>
+    <br>
+    <button><a class="Anchor" href="https://teams.microsoft.com/">TEAMS LOGIN</a></button>
+    <br>
+    <br>
+    <button><a class="Anchor" href="https://habselstreeschools.fireflycloud.net/boys-school-library/library">HABS LIBRARY</a></button>
+    <br>
+    <br>
+    <button><a class="Anchor" href="https://habselstreeschools.fireflycloud.net/habs-boys-blogs/all-posts?tag=4">HABS BLOG</a></button>
+    <br>
+    <br>
+    <button><a class="Anchor" href="https://habsboys.flat.io/">HABS FLAT MUSIC </a></button>
+    <br>
+    <br>
+    <button><a class="Anchor" href="https://www.figureoutphysics.com/">FIGURE OUT PHYSICS </a></button>
+    <br>
+    <br>
+    <button><a class="Anchor" href="https://www.office.com/onedrive">ONEDRIVE </a></button>
+    <br>
+    <br>
+    <button><a class="Anchor" href="https://www.office.com/onenote">ONENOTE </a></button>
+    <br>
+    <br>
+    <button><a class="Anchor" href="https://fosuk.server1.apps.focusonsound.com/dictionary/">FOCUS ON SOUND </a></button>
+    <br>
+    <br>
+    <button><a class="Anchor" href="https://www.drfrost.org/login.php">DR FROST </a></button>
+  </body>
+</html>
