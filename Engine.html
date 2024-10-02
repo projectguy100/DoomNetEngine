@@ -1,12 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Doomnet Engine</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Search Engine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .search-container {
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .search-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #search-input {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 4px 0 0 4px;
+        }
+        #search-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+        }
+        #search-button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
-<middlebutton><img src="Images/banner.png" alt="Logo" width="2072" height="192"></middlebutton>
+      <middlebutton><img src="Images/banner.png" alt="Logo" width="2072" height="192"></middlebutton>
+    <div class="search-container">
+        <h1>Document Search Engine</h1>
+        <form id="search-form" action="search.php" method="GET">
+            <div class="search-box">
+                <input type="text" id="search-input" name="query" placeholder="Enter your search query" required>
+                <button type="submit" id="search-button">Search</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('search-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            var query = document.getElementById('search-input').value;
+            // Implement your search logic here
+            console.log('Searching for:', query);
+            // You can redirect to a results page or display results dynamically
+        });
+    </script>
 </body>
-  
 </html>
