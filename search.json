@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Example Page 1",
+    "url": "Sites/example1.html",
+    "content": "This is the content of example page 1."
+  },
+  {
+    "title": "Example Page 2",
+    "url": "Sites/example2.html",
+    "content": "This is the content of example page 2."
+  }
+]
