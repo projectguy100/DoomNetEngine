@@ -68,12 +68,11 @@
     </div>
     <div id="search-results"></div>
     <script>
-        document.getElementById('search-form').addEventListener('submit', function(e) {
+    document.getElementById('search-form').addEventListener('submit', function(e) {
         e.preventDefault();
         var query = document.getElementById('search-input').value.toLowerCase();
         searchSites(query);
     });
-
     function searchSites(query) {
         fetch('search.json')
             .then(response => response.json())
@@ -89,7 +88,6 @@
                 document.getElementById('search-results').innerHTML = 'An error occurred while searching.';
             });
     }
-
     function displayResults(results) {
         var resultsDiv = document.getElementById('search-results');
         resultsDiv.innerHTML = '';
