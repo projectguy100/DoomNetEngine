@@ -5,6 +5,11 @@
     "content": "Perplexity page"
   },
   {
+    "title": "Searchable Site List",
+    "url": "Searchable-Sites.md",
+    "content": "Searchable Site Name List"
+  },
+  {
     "title": "Habs login site",
     "url": "Sites/habs-site-1.html",
     "content": "Habs login page"
