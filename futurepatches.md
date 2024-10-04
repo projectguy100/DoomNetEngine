@@ -5,3 +5,4 @@ This is a list of what might be added for the next update and some notes of impr
 - Add a changelog link
 - Add more searches
 - Add feedback and add URL form - https://forms.gle/CeeCBtmhvBUeCHnK9
+- indexing on google if searched 'doomnetengine', 'doomnet-engine' or etc
