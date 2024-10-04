@@ -5,8 +5,59 @@
     "content": "Perplexity page"
   },
   {
+    "title": "Searchable Site List",
+    "url": "Searchable-Sites.md",
+    "content": "Searchable Site Name List"
+  },
+  {
     "title": "Habs login site",
     "url": "Sites/habs-site-1.html",
     "content": "Habs login page"
+  },
+  {
+    "title": "Habs Library",
+    "url": "https://haber.cirqahosting.com/",
+    "content": "Habs Library/catalogue"
+  },
+  {
+    "title": "SOCS",
+    "url": "https://habselstreeschools.fireflycloud.net/login/login.aspx?prelogin=https%3a%2f%2fhabselstreeschools.fireflycloud.net%2f",
+    "content": "Habs SOCS"
+  },
+  {
+    "title": "Habs Archive Catalogue",
+    "url": "https://calm-sh67.axiell.net/",
+    "content": "Habs Archive Catalogue"
+  },
+  {
+    "title": "Habs Online Resources",
+    "url": "https://habselstreeschools.fireflycloud.net/habs-boys-library/online-resources",
+    "content": "Habs Online Resources"
+  },
+  {
+    "title": "Firefly",
+    "url": "https://habselstreeschools.fireflycloud.net/login/login.aspx?prelogin=https%3a%2f%2fhabselstreeschools.fireflycloud.net%2f",
+    "content": "Habs Firefly"
+  },
+  {
+    "title": "Habs Boys Blog",
+    "url": "https://habselstreeschools.fireflycloud.net/blogs-1",
+    "content": "Habs Boys Blog"
+  },
+  {
+    "title": "Habs Exam Resources",
+    "url": "https://habselstreeschools.fireflycloud.net/exam-resources-1",
+    "content": "Habs Exam Resources"
+  },
+  {
+    "title": "Office",
+    "url": "https://www.office.com/?auth=2",
+    "content": "Habs Office Login"
+  },
+   {
+    "title": "Microsoft teams",
+    "url": "https://teams.microsoft.com/v2/?clientexperience=t2",
+    "content": "Microsoft teams for habs"
   }
 ]
+
