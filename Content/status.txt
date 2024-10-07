@@ -1,3 +1,4 @@
 Online: True
 Indexed: True
 Host: Github pages
+Search source: 'search.json'
