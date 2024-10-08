@@ -9,4 +9,4 @@ This is a list of what might be added for the next update and some notes of impr
 
 **Notes**
 - Add a 404 page ✓✓✓
-- buy a domain
+- Buy a Domain [Unecessary To Buy]
