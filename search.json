@@ -10,6 +10,11 @@
     "content": "Searchable Site Name List"
   },
   {
+    "title": "<a href="image_location.zip" download>Example</a>",
+    "url": "example-file.txt",
+    "content": "Searchable Site Name List"
+  },
+  {
     "title": "Habs login site",
     "url": "https://hbp1rv.mimo.run/index.html",
     "content": "Habs login page"
