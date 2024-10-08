@@ -10,7 +10,7 @@
     "content": "Searchable Site Name List"
   },
   {
-    "title": "<a href="example-file.txt" download>Site list download</a>",
+    "title": "Site list download",
     "url": "download-the-searchable.html",
     "content": "Searchable Site List Download"
   },
