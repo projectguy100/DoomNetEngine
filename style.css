@@ -16,6 +16,12 @@ middlebutton {
   left: 10px;
 }
 
+.download{
+  position: fixed;
+  botton: 10px;
+  right: 20px;
+}
+
 #Site-List{
   position: fixed;
   bottom: 10px;
