@@ -1,2 +1,2 @@
-ProjectGuy100 - Most of the html code is made by me and making of the engine work is made by me.
-TheGeek1307 - Styled it with CSS and added a few links
+ProjectGuy100 - Most of the html code is made by me and the JavaScript is made by me.
+TheGeek1307 - Styled it with CSS and added Website links to the Engine, also coded another library/hub for links.
