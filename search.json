@@ -21,7 +21,7 @@
   },
   {
     "title": "SOCS",
-    "url": "https://habselstreeschools.fireflycloud.net/login/login.aspx?prelogin=https%3a%2f%2fhabselstreeschools.fireflycloud.net%2f",
+    "url": "https://www.socscms.com/login/129/?logout=1&lt=pupil",
     "content": "Habs SOCS"
   },
   {
@@ -58,6 +58,11 @@
     "title": "Microsoft teams",
     "url": "https://teams.microsoft.com/v2/?clientexperience=t2",
     "content": "Microsoft teams for habs"
+  }
+  {
+    "title": "justdoinghomework.com",
+    "url": "https://www.justdoinghomework.com/",
+    "content": "Just doing homework"
   }
 ]
 
