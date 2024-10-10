@@ -28,6 +28,12 @@ middlebutton {
   right: 10px;
 }
 
+.hs{
+position: fixed;
+botton: 10px;
+right: 20px;
+}
+
 body {
             font-family: Arial, sans-serif;
             display: flex;
