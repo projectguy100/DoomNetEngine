@@ -7,7 +7,7 @@ middlebutton {
 .top-right-icon {
   position: fixed;
   top: 10px;
-  right: 10px;
+  center: 10px;
 }
 
 .changelog{
