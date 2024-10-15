@@ -43,3 +43,6 @@
 
     "Site Name When Searched": "Microsoft teams",
     "Keywords": "Microsoft teams for habs"
+
+   "Site Name When Searched": "Youtube",
+   "Keywords": "Youtube"
