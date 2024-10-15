@@ -16,7 +16,7 @@
   },
   {
     "title": "Site list download",
-    "url": "download-the-searchable.html",
+    "url": "downloads.html",
     "content": "Searchable Site List Download"
   },
   {
@@ -73,6 +73,11 @@
     "title": "Gomoku",
     "url": "https://gomokuonline.com",
     "content": "Online Gomoku"
+  },
+  {
+    "title": "Credits",
+    "url": "Content/Credits.txt",
+    "content": "DoomNet Engine credits"
   }
 ]
 
