@@ -78,6 +78,10 @@
     "title": "Credits",
     "url": "Content/Credits.txt",
     "content": "DoomNet Engine credits"
+  },
+  {
+    "title": "Youtube",
+    "url": "https://youtu.be",
+    "content": "YouTube"
   }
 ]
-
