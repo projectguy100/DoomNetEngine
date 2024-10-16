@@ -7,7 +7,7 @@ middlebutton {
 .top-right-icon {
   position: fixed;
   top: 10px;
-  center: 10px;
+  right: 10px;
 }
 
 .changelog{
@@ -18,9 +18,10 @@ middlebutton {
 
 .download{
   position: fixed;
-  bottom: 10px;
-  right: 120px;
+  top: 10px;
+  center: 10px;
 }
+
 
 #Site-List{
   position: fixed;
