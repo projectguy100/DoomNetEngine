@@ -45,8 +45,10 @@ h1 {
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
-    cursor: move;
+    cursor: pointer;
     text-align: center;
+    border: none;
+    width: 100%;
 }
 
 .canvas-element {
