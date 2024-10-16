@@ -3,23 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const canvas = document.getElementById('canvas');
 
     tools.forEach(tool => {
-        tool.addEventListener('dragstart', dragStart);
+        tool.addEventListener('click', addElement);
     });
 
-    canvas.addEventListener('dragover', dragOver);
-    canvas.addEventListener('drop', drop);
-
-    function dragStart(e) {
-        e.dataTransfer.setData('text/plain', e.target.dataset.type);
-    }
-
-    function dragOver(e) {
-        e.preventDefault();
-    }
-
-    function drop(e) {
-        e.preventDefault();
-        const type = e.dataTransfer.getData('text');
+    function addElement(e) {
+        const type = e.target.dataset.type;
         const element = createElement(type);
         canvas.appendChild(element);
     }
