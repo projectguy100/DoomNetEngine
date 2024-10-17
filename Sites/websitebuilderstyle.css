@@ -1,66 +1,53 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    display: flex;
+}
+
+#builder {
+    width: 70%;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+#toolbar {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.draggable {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+
+#preview {
+    min-height: 300px;
+    border: 1px dashed #999;
+    padding: 10px;
+}
+
+#properties {
+    width: 30%;
+    padding: 20px;
     background-color: #f0f0f0;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+input {
+    display: block;
+    margin-bottom: 10px;
 }
 
-h1 {
-    text-align: center;
-    color: #333;
+.selected {
+    border: 2px solid blue;
 }
 
-.builder {
-    display: flex;
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.toolbox {
-    flex: 1;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.canvas {
-    flex: 3;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    min-height: 500px;
-}
-
-.tool {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    cursor: move;
-    text-align: center;
-}
-
-.canvas-element {
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    cursor: move;
-}
-
-.canvas-element:focus-within {
-    border-color: #007bff;
-}
-
-.canvas-element [contenteditable] {
-    outline: none;
+.preview-element {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
 }
