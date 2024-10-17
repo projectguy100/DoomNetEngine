@@ -1,51 +1,51 @@
-body {
+body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
     display: flex;
 }
 
-#builder {
+#builder{
     width: 70%;
     border: 1px solid #ccc;
     padding: 20px;
 }
 
-#toolbar {
+#toolbar{
     margin-bottom: 20px;
     display: flex;
     gap: 10px;
 }
 
-.draggable {
+.draggable{
     padding: 10px;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     cursor: move;
 }
 
-#preview {
+#preview{
     min-height: 300px;
     border: 1px dashed #999;
     padding: 10px;
 }
 
-#properties {
+#properties{
     width: 30%;
     padding: 20px;
     background-color: #f0f0f0;
 }
 
-input {
+input{
     display: block;
     margin-bottom: 10px;
 }
 
-.selected {
+.selected{
     border: 2px solid blue;
 }
 
-.preview-element {
+.preview-element{
     margin: 5px;
     padding: 5px;
     border: 1px solid #ddd;
