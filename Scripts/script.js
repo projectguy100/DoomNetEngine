@@ -1,92 +1,94 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const tools = document.querySelectorAll('.tool');
-    const canvas = document.getElementById('canvas');
+let selectedElement = null;
 
-    tools.forEach(tool => {
-        tool.addEventListener('dragstart', dragStart);
-    });
+function allowDrop(ev) {
+    ev.preventDefault();
+}
 
-    canvas.addEventListener('dragover', dragOver);
-    canvas.addEventListener('drop', drop);
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.dataset.type);
+}
 
-    function dragStart(e) {
-        e.dataTransfer.setData('text/plain', e.target.dataset.type);
+function drop(ev) {
+    ev.preventDefault();
+    const type = ev.dataTransfer.getData("text");
+    addElement(type, ev.clientX, ev.clientY);
+}
+
+function addElement(type, x, y) {
+    const preview = document.getElementById('preview');
+    let element;
+
+    switch(type) {
+        case 'h1':
+            element = document.createElement('h1');
+            element.textContent = 'Heading';
+            break;
+        case 'p':
+            element = document.createElement('p');
+            element.textContent = 'Paragraph text';
+            break;
+        case 'img':
+            element = document.createElement('img');
+            element.src = 'https://via.placeholder.com/150';
+            element.alt = 'Placeholder image';
+            break;
     }
 
-    function dragOver(e) {
-        e.preventDefault();
-    }
+    element.className = 'preview-element';
+    element.style.position = 'absolute';
+    element.style.left = `${x - preview.getBoundingClientRect().left}px`;
+    element.style.top = `${y - preview.getBoundingClientRect().top}px`;
 
-    function drop(e) {
-        e.preventDefault();
-        const type = e.dataTransfer.getData('text');
-        const element = createElement(type);
-        canvas.appendChild(element);
-    }
-
-    function createElement(type) {
-        const element = document.createElement('div');
-        element.classList.add('canvas-element');
-        element.draggable = true;
-        element.addEventListener('dragstart', elementDragStart);
-
-        switch (type) {
-            case 'heading':
-                element.innerHTML = '<h2 contenteditable="true">New Heading</h2>';
-                break;
-            case 'paragraph':
-                element.innerHTML = '<p contenteditable="true">New paragraph text.</p>';
-                break;
-            case 'image':
-                element.innerHTML = '<img src="https://via.placeholder.com/150" alt="Placeholder Image">';
-                break;
-            case 'button':
-                element.innerHTML = '<button>New Button</button>';
-                break;
+    element.onclick = function(e) {
+        e.stopPropagation();
+        if (selectedElement) {
+            selectedElement.classList.remove('selected');
         }
+        this.classList.add('selected');
+        selectedElement = this;
+        updateProperties();
+    };
 
-        return element;
+    element.draggable = true;
+    element.ondragstart = drag;
+
+    preview.appendChild(element);
+}
+
+function updateProperties() {
+    if (selectedElement) {
+        document.getElementById('elementText').value = selectedElement.textContent || '';
+        document.getElementById('elementColor').value = rgb2hex(selectedElement.style.color);
+        document.getElementById('elementSize').value = parseInt(selectedElement.style.fontSize) || 16;
     }
+}
 
-    function elementDragStart(e) {
-        e.dataTransfer.setData('text/plain', 'move');
-        e.target.id = 'dragging';
+function applyProperties() {
+    if (selectedElement) {
+        selectedElement.textContent = document.getElementById('elementText').value;
+        selectedElement.style.color = document.getElementById('elementColor').value;
+        selectedElement.style.fontSize = document.getElementById('elementSize').value + 'px';
     }
+}
 
-    canvas.addEventListener('dragover', canvasDragOver);
-    canvas.addEventListener('drop', canvasDrop);
-
-    function canvasDragOver(e) {
-        e.preventDefault();
-        const draggingElement = document.getElementById('dragging');
-        if (draggingElement) {
-            const afterElement = getDragAfterElement(canvas, e.clientY);
-            if (afterElement == null) {
-                canvas.appendChild(draggingElement);
-            } else {
-                canvas.insertBefore(draggingElement, afterElement);
-            }
-        }
+function rgb2hex(rgb) {
+    if (rgb.search("rgb") == -1) return rgb;
+    rgb = rgb.match(/^rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*(\d+))?\)$/);
+    function hex(x) {
+        return ("0" + parseInt(x).toString(16)).slice(-2);
     }
+    return "#" + hex(rgb[1]) + hex(rgb[2]) + hex(rgb[3]);
+}
 
-    function canvasDrop(e) {
-        const draggingElement = document.getElementById('dragging');
-        if (draggingElement) {
-            draggingElement.removeAttribute('id');
-        }
-    }
-
-    function getDragAfterElement(container, y) {
-        const draggableElements = [...container.querySelectorAll('.canvas-element:not(#dragging)')];
-
-        return draggableElements.reduce((closest, child) => {
-            const box = child.getBoundingClientRect();
-            const offset = y - box.top - box.height / 2;
-            if (offset < 0 && offset > closest.offset) {
-                return { offset: offset, element: child };
-            } else {
-                return closest;
-            }
-        }, { offset: Number.NEGATIVE_INFINITY }).element;
-    }
+// Initialize drag events for toolbar items
+document.querySelectorAll('.draggable').forEach(item => {
+    item.ondragstart = drag;
 });
+
+// Deselect elements when clicking on the preview area
+document.getElementById('preview').onclick = function() {
+    if (selectedElement) {
+        selectedElement.classList.remove('selected');
+        selectedElement = null;
+    }
+};
