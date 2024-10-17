@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drag and Drop Website Builder</title>
+    <title>Drag and Drop Website Builder with Canvas</title>
     <link rel="stylesheet" href="Sites/websitebuilderstyle.css">
 </head>
 <body>
@@ -13,8 +13,11 @@
             <div class="draggable" draggable="true" data-type="p">Paragraph</div>
             <div class="draggable" draggable="true" data-type="img">Image</div>
         </div>
-        <div id="preview" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <!-- Preview area -->
+        <div id="canvas-container">
+            <canvas id="preview-canvas"></canvas>
+            <div id="preview" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <!-- Preview area -->
+            </div>
         </div>
     </div>
     <div id="properties">
