@@ -56,3 +56,5 @@
     "Site Name When Searched": "Gomoku",
     "Keywords": "Online Gomoku"
 
+    "Site Name When Searched": "Chess.com",
+    "Keywords": "Chess.com","Chess","chess"
