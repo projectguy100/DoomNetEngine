@@ -83,5 +83,10 @@
     "title": "Youtube",
     "url": "https://youtu.be",
     "content": "YouTube"
+  },
+  {
+    "title": "Chess.com",
+    "url": "chess.com",
+    "content": "chess.com",
   }
 ]
