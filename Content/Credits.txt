@@ -2,6 +2,6 @@ ProjectGuy100 - Most of the html code is made by me and the JavaScript is made b
 TheGeek1307 - Styled it with CSS and added some Website links to the Engine.
 
 THINGS MADE BY US:
-Projecthuy100: base html, favicon, halloween planning, most feature planning, downloads, sound, script, functionality(search.json) [78%]
-TheGeek1307: CSS, links, banner, downloads icon main page image, searchable sites, text and link position, some links to the search results [20%]
-Syan212: Added some links, updated searchable sites file [2%]
+Projecthuy100: base html, favicon, halloween planning, most feature planning, downloads, sound, script, functionality(search.json) [68%]
+TheGeek1307: CSS, links, banner, downloads icon main page image, searchable sites, text and link position, some links to the search results [31%]
+Syan212: Added some links, updated searchable sites file [1%]
