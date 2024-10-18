@@ -58,3 +58,9 @@
 
     "Site Name When Searched": "Chess.com",
     "Keywords": "Chess.com","Chess","chess"
+
+    "Site Name When Searched": "ChatGPT",
+    "Keywords": "chatgpt","ChatGPT"
+
+    "Site Name When Searched": "Perplexity AI",
+    "Keywords": "Perplexity"

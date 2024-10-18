@@ -88,5 +88,15 @@
     "title": "Chess.com",
     "url": "https://chess.com",
     "content": "chess.com"
+  },
+  {
+    "title": "ChatGPT",
+    "url": "https://chat.openai.com",
+    "content": "ChatGPT"
+  },
+  {
+    "title": "Perplexity Ai",
+    "url": "https://perplexity.ai",
+    "content": "Perplexity AI"
   }
 ]
