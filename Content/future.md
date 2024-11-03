@@ -20,6 +20,7 @@ This is a list of what might be added for the next update, approx release dates,
 - Halloween day(30-31th October 2024) surprise!!! ✓✓✓
 - Jumpscare ✘
 - Update the changelog sites ✓✓✓
+- log
 
 **November Update [Firework update 1]**
 **_Release date (approx may be not accurate): 10th November 2024 or earlier_**
