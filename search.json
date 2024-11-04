@@ -103,5 +103,10 @@
     "title": "Copilot",
     "url": "https://copilot.microsoft.com",
     "content": "Copilot"
+  },
+  {
+  "title": "Pikachu",
+  "url": "Content/Unused/Pikachu_unused.png";
+  "content": "Pikachu picture";
   }
 ]
