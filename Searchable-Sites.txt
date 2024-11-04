@@ -64,3 +64,6 @@
 
     "Site Name When Searched": "Perplexity AI",
     "Keywords": "Perplexity"
+
+    "Site Name When Searched": "Copilot AI",
+    "Keywords": "Copilot"

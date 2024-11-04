@@ -105,8 +105,8 @@
     "content": "Copilot"
   },
   {
-  "title": "Pikachu",
-  "url": "Content/Unused/Pikachu_unused.png";
-  "content": "Pikachu picture";
+    "title": "Pikachu",
+    "url": "Content/Unused/Pikachu_unused.png",
+    "content": "Pikachu picture"
   }
 ]
