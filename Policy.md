@@ -11,3 +11,4 @@ Consequences
 4. Permanent ban
 
 We aim to make DoomNet Engine a friendly site so please help us achieve it!
+Thank you for your cooperation and have a nice day! :)
