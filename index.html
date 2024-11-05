@@ -17,11 +17,13 @@
     <img src= "Images/Halloween-Banner-2.png" alt="Logo" width="272" height="72">
     <div class="search-container">
         <h1>DoomNet Engine</h1>
-        <label>
-            <input type="checkbox" id="agree-checkbox">
-            I agree to the <a href="Policy.md" target="_blank">Terms and Conditions</a>.
-        </label>
-        <button onclick="submitAgreement()">Submit</button>
+        <div id="terms-container">
+            <label>
+                <input type="checkbox" id="agree-checkbox">
+                I agree to the <a href="Policy.md" target="_blank">Terms and Conditions</a>.
+            </label>
+            <button onclick="submitAgreement()">Submit</button>
+        </div>
         <form id="search-form">
             <div class="search-box">
                 <input type="text" id="search-input" name="query" placeholder="Type here to search...." required>
