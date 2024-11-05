@@ -24,6 +24,7 @@ function hideTermsSection() {
     }
 }
 
+
 // Function to set a cookie
 function setCookie(name, value, days) {
     const d = new Date();
