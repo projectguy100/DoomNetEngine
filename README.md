@@ -2,7 +2,7 @@
 A simple search engine called DoomNet
 
 Link here: 
-<a href="https://projectguy100.github.io/DoomNetEngine/">https://projectguy100.github.io/DoomNetEngine/>Click here</a>
+<a href="https://projectguy100.github.io/DoomNetEngine/">https://projectguy100.github.io/DoomNetEngine/</a>
 
 Policy link here: 
 <a href="https://projectguy100.github.io/DoomNetEngine/">https://projectguy100.github.io/DoomNetEngine/Policy.md</a>
