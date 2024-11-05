@@ -1,9 +1,7 @@
 // Check if the "agreedToTerms" cookie is set
 document.addEventListener('DOMContentLoaded', () => {
     if (getCookie("agreedToTerms") === "true") {
-        document.getElementById("agree-checkbox").checked = true;
-        document.getElementById("agree-checkbox").disabled = true;
-        alert("You have already agreed to the terms and conditions.");
+        hideTermsSection();
     }
 });
 
@@ -12,10 +10,17 @@ function submitAgreement() {
     const checkbox = document.getElementById("agree-checkbox");
     if (checkbox.checked) {
         setCookie("agreedToTerms", "true", 30); // Cookie expires in 30 days
-        alert("Thank you for agreeing to the terms and conditions.");
-        checkbox.disabled = true; // Disable checkbox after agreeing
+        hideTermsSection(); // Hide terms section after agreeing
     } else {
         alert("Please agree to the terms and conditions.");
+    }
+}
+
+// Function to hide the terms section
+function hideTermsSection() {
+    const termsContainer = document.getElementById("terms-container");
+    if (termsContainer) {
+        termsContainer.style.display = "none";
     }
 }
 
