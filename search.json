@@ -113,5 +113,10 @@
     "title": "Britannica",
     "url": "https://www.britannica.com/",
     "content": "Encyclopedia Britannica"
+  },
+  {
+    "title": "Wikipedia",
+    "url": "Sites/wikipedia.html",
+    "content": "English wikipedia"
   }
 ]
