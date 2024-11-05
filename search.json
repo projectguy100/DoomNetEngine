@@ -108,5 +108,10 @@
     "title": "Pikachu",
     "url": "Content/Unused/pikachu_unused.png",
     "content": "Pikachu picture"
+  },
+  {
+    "title": "Britannica",
+    "url": "https://www.britannica.com/",
+    "content": "Encyclopedia Britannica"
   }
 ]
