@@ -22,7 +22,7 @@
                 <input type="checkbox" id="agree-checkbox">
                 I agree to the <a href="Policy.md" target="_blank">Terms and Conditions</a>.
             </label>
-            <button id="submit-btn" onclick="submitAgreement()" disabled>Submit</button>
+            <button id="submit-btn" onclick="submitAgreement()">Submit</button>
         </div>
         <form id="search-form" disabled>
             <div class="search-box">
@@ -65,7 +65,7 @@
     function disableInteractiveElements() {
         const elements = [
             'search-input', 'search-button', 'search-form', 'changelog-link', 'download-link',
-            'audioPlayer', 'Site-List', 'submit-btn'
+            'audioPlayer', 'Site-List'
         ];
         elements.forEach(function(id) {
             const el = document.getElementById(id);
@@ -77,7 +77,7 @@
     function enableInteractiveElements() {
         const elements = [
             'search-input', 'search-button', 'search-form', 'changelog-link', 'download-link',
-            'audioPlayer', 'Site-List', 'submit-btn'
+            'audioPlayer', 'Site-List'
         ];
         elements.forEach(function(id) {
             const el = document.getElementById(id);
