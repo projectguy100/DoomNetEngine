@@ -48,31 +48,7 @@
     console.log("UPDATE PHASE 3.3 HALLOWEEN TO NOVEMBER UPDATE");
     console.log(".... . .-.. .-.. --- / - .... .. ... / .. ... / -.. --- --- -- -. . - .-.-.- / - .... . / -. --- ...- . -- -... . .-. / ..- .--. -.. .- - . / .. ... / -.-. .- .-.. .-.. . -.. / ..-. .. .-. . .-. -.-- / ..-. .. .-. . .--. --- .-- -.. . .-. -.-.-- -.-.-- -.-.--");
     console.log("ounfdvmFIVHbnmM5J8DpPnMxeWrDkAZiFq9EWWIgML8Lmnef8szWnlBu0L+BZiqfFZb21hxYYuPEZukWiUOD9kf0sDp7poSE9FWJu6pxm3M=");
-
-    // Disable elements on page load
-    document.addEventListener("DOMContentLoaded", function() {
-        disableInteractiveElements();
-    });
-
-    // Enable interactive elements once user agrees
-    function submitAgreement() {
-        if (document.getElementById('agree-checkbox').checked) {
-            enableInteractiveElements();
-        }
-    }
-
-    // Disable all interactive elements initially
-    function disableInteractiveElements() {
-        const elements = [
-            'search-input', 'search-button', 'search-form', 'changelog-link', 'download-link',
-            'audioPlayer', 'Site-List'
-        ];
-        elements.forEach(function(id) {
-            const el = document.getElementById(id);
-            if (el) el.disabled = true;
-        });
-    }
-
+    // REDO in the future as caused an bug
     // Enable interactive elements once terms are agreed to
     function enableInteractiveElements() {
         const elements = [
