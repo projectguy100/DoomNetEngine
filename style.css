@@ -23,22 +23,28 @@ middlebutton {
 }
 
 
-#Site-List{
+#Site-List {
   position: fixed;
   bottom: 10px;
   right: 10px;
 }
 
-.hs{
+.hs {
 position: fixed;
 bottom: 10px;
 right: 20px;
 }
 
-.future-patches{
+.future-patches {
   position: fixed;
   bottom: 10px;
   left: 30px;
+}
+
+.copyright-sign {
+  position: fixed;
+  bottom: 10px;
+  right: 130px;
 }
 
 body {
