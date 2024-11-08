@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DigitCalculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+        <script src="script.js"></script>
+        </head>
+ 
+    <body>
+            <img src="Images/banner.png" width="450" height="60">
+	    <h3>DigitCalculator</h3>
+            <div class ="main">
+                <form name="form">
+                    <input class="textview" readonly name="textview">
+                </form>
+                <form>
+                <table>
+                    <tr>
+                        <td> <input class ="button" type="button" value="CE" onclick="clean()" > </td>
+                        <td> <input class ="button" type="button" value="⌫" onclick="back()"> </td>
+                        <td> <input class ="button" type="button" value="÷" onclick="insert('/')"> </td>
+                        <td> <input class="button" type="button" value="x" onclick="insert('*')"> </td>
+			<td> <input class ="complex" type="button" value="test" onclick="insert('')" id="complex" style="display:none"> </td>
+                        <td> <input class ="complex" type="button" value="test" onclick="insert('')" id="complex" style="display:none"> </td>
+                        <td> <input class="complex" type="button" value="test" onclick="insert('')" id="complex" style="display:none"> </td>
+                    </tr>
+                    <tr>
+                        <td> <input class ="button" type="button" value="7" onclick="insert(7)"> </td>
+                        <td> <input class ="button" type="button" value="8" onclick="insert(8)"> </td>
+                        <td> <input class ="button" type="button" value="9" onclick="insert(9)"> </td>
+                        <td> <input class ="button" type="button" value="+" onclick="insert('+')"> </td>
+			<td> <input class ="complex" type="button" value="test" onclick="insert('')" id="complex" style="display:none"> </td>
+                        <td> <input class ="complex" type="button" value="test" onclick="insert('')" id="complex" style="display:none"> </td>
+                        <td> <input class="complex" type="button" value="test" onclick="insert('')" id="complex" style="display:none"> </td>
+                    </tr>
+                    <tr>
+                        <td> <input class ="button" type="button" value="6" onclick="insert(6)"> </td>
+                        <td> <input class ="button" type="button" value="5" onclick="insert(5)"> </td>
+                        <td> <input class ="button" type="button" value="4" onclick="insert(4)"> </td>
+                        <td> <input class ="button" type="button" value="-" onclick="insert('-')"> </td>
+			<td> <input class ="complex" type="button" value="test" onclick="insert('')" id="complex" style="display:none"> </td>
+                        <td> <input class ="complex" type="button" value="test" onclick="insert('')" id="complex" style="display:none"> </td>
+                        <td> <input class="complex" type="button" value="test" onclick="insert('')" id="complex" style="display:none"> </td>
+                    </tr>
+                    <tr>
+                        <td> <input class ="button" type="button" value="1" onclick="insert(1)"> </td>
+                        <td> <input class ="button" type="button" value="2" onclick="insert(2)"> </td>
+                        <td> <input class ="button" type="button" value="3" onclick="insert(3)"> </td>
+                        <td rowspan="2"> <input class ="button" type="button" value="=" style=height:104px onclick="equal()"> </td>
+			<td> <input class ="complex" type="button" value="test" onclick="insert('')" id="complex" style="display:none"> </td>
+                        <td> <input class ="complex" type="button" value="test" onclick="insert('')" id="complex" style="display:none"> </td>
+                        <td> <input class="complex" type="button" value="test" onclick="insert('')" id="complex" style="display:none"> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> <input class ="button" type="button" value="0" style=width:104px onclick=insert(0)> </td>
+                        <td> <input class ="button" type="button" value="." onclick="insert('.')"> </td>
+			<td> <input class ="complex" type="button" value="test" onclick="insert('')" id="complex" style="display:none"> </td>
+                        <td> <input class ="complex" type="button" value="test" onclick="insert('')" id="complex" style="display:none"> </td>
+                        <td> <input class="complex" type="button" value="test" onclick="insert('')" id="complex" style="display:none"> </td>
+                    </tr>
+                </table>
+            </form>
+          <form>
+		Complex Mode<input type="checkbox" id="complexcheck" onclick="complex()">
+          </form>
+	</div>
+	<div class="bottom">
+	       <b><a href="Sites/credits.html">Credits</a></b>
+	</div>
+        </body>
+    
+</html>
