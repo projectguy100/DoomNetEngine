@@ -49,17 +49,6 @@
     console.log(".... . .-.. .-.. --- / - .... .. ... / .. ... / -.. --- --- -- -. . - .-.-.- / - .... . / -. --- ...- . -- -... . .-. / ..- .--. -.. .- - . / .. ... / -.-. .- .-.. .-.. . -.. / ..-. .. .-. . .-. -.-- / ..-. .. .-. . .--. --- .-- -.. . .-. -.-.-- -.-.-- -.-.--");
     console.log("ounfdvmFIVHbnmM5J8DpPnMxeWrDkAZiFq9EWWIgML8Lmnef8szWnlBu0L+BZiqfFZb21hxYYuPEZukWiUOD9kf0sDp7poSE9FWJu6pxm3M=");
     // REDO in the future as caused an bug
-    // Enable interactive elements once terms are agreed to
-    function enableInteractiveElements() {
-        const elements = [
-            'search-input', 'search-button', 'search-form', 'changelog-link', 'download-link',
-            'audioPlayer', 'Site-List'
-        ];
-        elements.forEach(function(id) {
-            const el = document.getElementById(id);
-            if (el) el.disabled = false;
-        });
-    }
 
     document.getElementById('search-form').addEventListener('submit', function(e) {
         e.preventDefault();
