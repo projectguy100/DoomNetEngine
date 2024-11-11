@@ -138,5 +138,10 @@
     "title": "Britannica",
     "url": "https://www.britannica.com/",
     "content": "Encyclopedia Britannica"
+  },
+  {
+    "title": "Blooket",
+    "url": "https://www.blooket.com/",
+    "content": "Blooket"
   }
 ]
