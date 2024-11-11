@@ -4,8 +4,8 @@ middlebutton {
   margin-right: auto;
 }
 
-#calculator{
-  position: unfixed;
+.calculator{
+  position: fixed;
   top: 10px;
   left: 10px;
 }
