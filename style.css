@@ -4,6 +4,12 @@ middlebutton {
   margin-right: auto;
 }
 
+#calculator{
+  position: unfixed;
+  top: 10px;
+  left: 10px;
+}
+
 .top-right-icon {
   position: fixed;
   top: 10px;
