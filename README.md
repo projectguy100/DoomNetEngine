@@ -10,7 +10,7 @@ Policy link here:
 Do not make a replica or clone that has the same icon, same content, same files and similar (search engine).
 Use if fine, and forks and issues and pull requests are fine and will help the development!
 
-To use please download zip, use package or use 
+To use please download zip, use package or heres the git download:
 
 ```
 git clone https://github.com/projectguy100/DoomNetEngine
