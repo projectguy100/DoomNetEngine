@@ -4,7 +4,10 @@
 2. You will not post copyrighted-content.
 3. Be friendly and nice on this repo.
 
-Consequences
+Extra notes
+Your search history on DoomNet will be recorded[^1].
+
+**Consequences**
 1. Deleting merge.
 2. Closing pull requests.
 3. A temporary ban.
