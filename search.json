@@ -143,5 +143,25 @@
     "title": "Blooket",
     "url": "https://www.blooket.com/",
     "content": "Blooket"
+  },
+  {
+    "title": "Dr Frost",
+    "url": "https://www.drfrost.org/",
+    "content": "Dr frost"
+  },
+  {
+    "title": "BBC Bitesize",
+    "url": "https://www.bbc.co.uk/bitesize",
+    "content": "BCC Bitesize"
+  },
+  {
+    "title": "Scratch",
+    "url": "https://scratch.mit.edu/",
+    "content": "Scratch"
+  },
+  {
+    "title": "National Geographic Kids",
+    "url": "https://www.natgeokids.com/uk/",
+    "content": "National Geographic Kids"
   }
 ]
