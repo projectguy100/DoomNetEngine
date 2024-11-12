@@ -9,6 +9,7 @@ Link here:
 Policy link here: 
 <a href="https://projectguy100.github.io/DoomNetEngine/">https://projectguy100.github.io/DoomNetEngine/Policy.md</a>
 
+<h1>Rules</h1>
 No Replicas or Clones: Cloning or replicating DoomNet Engine with the same icon, content, and files, or creating a similar search engine is not permitted. This restriction helps maintain the uniqueness and integrity of DoomNet.
 Usage and Contributions: While duplicating DoomNet as a clone isn’t allowed, usage and experimentation are encouraged. Forking, raising issues, and submitting pull requests are all welcomed and actively encouraged, as these help improve the engine over time.
 
