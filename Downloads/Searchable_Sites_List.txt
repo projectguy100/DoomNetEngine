@@ -1,41 +1,98 @@
-    "Site Name When Searched": "!Perplexity",
-    "Keywords": "Perplexity page"
+"Site Name When Searched": "!Perplexity",
+"Keywords": "Perplexity page"
 
+"Site Name When Searched": "Wikipedia",
+"Keywords": "Wikipedia"
 
-    "Site Name When Searched": "Habs login site",
-    "Keywords": "Habs login page"
+"Site Name When Searched": "Wikiversity",
+"Keywords": "Wikiversity"
 
+"Site Name When Searched": "Wikibooks",
+"Keywords": "Wikibooks"
 
-    "Site Name When Searched": "Habs Library",
-    "Keywords": "Habs Library/catalogue"
+"Site Name When Searched": "Wikinews",
+"Keywords": "Wikinews"
+  
+"Site Name When Searched": "Wiktionary",
+"Keywords": "Wiktionary"
+  
+"Site Name When Searched": "Focus on Sound",
+"Keywords": "Focus focus on On sound Sound"
+  
+"Site Name When Searched": "Searchable Site List",
+"Keywords": "Searchable Site Name List"
+  
+"Site Name When Searched": "Site list download",
+"Keywords": "Searchable Site List Download"
+  
+"Site Name When Searched": "Habs login site",
+"Keywords": "Habs login page"
+  
+"Site Name When Searched": "Habs Library",
+"Keywords": "Habs Library/catalogue"
+  
+"Site Name When Searched": "SOCS",
+"Keywords": "Habs SOCS"
+  
+"Site Name When Searched": "Habs Archive Catalogue",
+"Keywords": "Habs Archive Catalogue"
+  
+"Site Name When Searched": "Habs Online Resources",
+"Keywords": "Habs Online Resources"
+  
+"Site Name When Searched": "Firefly",
+"Keywords": "Habs Firefly"
+  
+"Site Name When Searched": "Habs Boys Blog",
+"Keywords": "Habs Boys Blog"
 
+"Site Name When Searched": "Habs Exam Resources",
+"Keywords": "Habs Exam Resources"
 
-    "Site Name When Searched": "SOCS",
-    "Keywords": "Habs SOCS"
+"Site Name When Searched": "Office",
+"Keywords": "Habs Office Login"
 
+"Site Name When Searched": "Gomoku",
+"Keywords": "Online Gomoku"
 
-    "Site Name When Searched": "Habs Archive Catalogue",
-    "Keywords": "Habs Archive Catalogue"
+"Site Name When Searched": "Credits",
+"Keywords": "DoomNet Engine credits"
 
+"Site Name When Searched": "Youtube",
+"Keywords": "YouTube"
 
-    "Site Name When Searched": "Habs Online Resources",
-    "Keywords": "Habs Online Resources"
-
-
-    "Site Name When Searched": "Firefly",
-    "Keywords": "Habs Firefly"
-
-    "Site Name When Searched": "Habs Boys Blog",
-    "Keywords": "Habs Boys Blog"
+"Site Name When Searched": "Chess.com",
+"Keywords": "chess.com"
     
- 
-    "Site Name When Searched": "Habs Exam Resources",
-    "Keywords": "Habs Exam Resources"
-    
-    
-    "Site Name When Searched": "Office",
-    "Keywords": "Habs Office Login"
+"Site Name When Searched": "ChatGPT",
+"Keywords": "ChatGPT"
 
+"Site Name When Searched": "Perplexity Ai",
+"Keywords": "Perplexity AI"
 
-    "Site Name When Searched": "Microsoft teams",
-    "Keywords": "Microsoft teams for habs"
+"Site Name When Searched": "Copilot",
+"Keywords": "Copilot"
+
+"Site Name When Searched": "Britannica",
+"Keywords": "Encyclopedia Britannica"
+
+"Site Name When Searched": "Blooket",
+"Keywords": "Blooket"
+
+"Site Name When Searched": "Dr Frost",
+"Keywords": "Dr frost"
+
+"Site Name When Searched": "BBC Bitesize",
+"Keywords": "BCC Bitesize"
+
+"Site Name When Searched": "Scratch",
+"content": "Scratch"
+
+"Site Name When Searched": "National Geographic Kids",
+"Keywords": "National Geographic Kids"
+
+"Site Name When Searched": "Calculator",
+"Keywords": "Calculator"
+
+"Site Name When Searched": "Microsoft teams",
+"Keywords": "Microsoft teams for habs"
