@@ -28,6 +28,11 @@ middlebutton {
   center: 10px;
 }
 
+.wiki-button{
+  position: fixed;
+  bottom: 10px;
+  left: 50px;
+}
 
 #Site-List {
   position: fixed;
