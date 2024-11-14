@@ -163,5 +163,20 @@
     "title": "Calculator",
     "url": "https://thegeek1307.github.io/Scientific-Calculator-v.1.0.0.0/",
     "content": "Calculator"
+  },
+  {
+    "title": "Scratch griffpatch",
+    "url": "https://scratch.mit.edu/users/griffpatch/",
+    "content": "Scratch griffpatch"
+  },
+  {
+    "title": "Github",
+    "url": "https://github.com",
+    "content": "Github"
+  },
+  {
+    "title": "DoomNet Wiki",
+    "url": "https://projectguy100.github.io/DoomNetEngine/Wiki/index.html",
+    "content": "DoomNet Engine Wiki"
   }
 ]
