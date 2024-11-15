@@ -1,3 +1,3 @@
-@ProjectGuy100 - Most of the html code is made by me and the JavaScript is made by me.
-@TheGeek1307 - Styled it with CSS and added some Website links to the Engine, also added all the good banners and Icons, fixed a lot of html code.
-@syan212 - Added a bunch of sites to search and did kind of screw up a bit but it was a minor issue.
+@ProjectGuy100 - Most of the html code is made by me and the JavaScript is made by me. Added lots of links, most sun-sites are made by me. Ideas and update planning are by me.
+@TheGeek1307 - Styled it with CSS and added some Website links to the Engine, also added all the good banners and Icons, fixed some of html code.
+@syan212 - Added a bunch of sites to search and searchable sites and did kind of screw up a bit but it was a minor issue(no comma crashed EVERYTHING).
