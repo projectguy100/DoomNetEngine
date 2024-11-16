@@ -21,13 +21,13 @@
                 <input type="checkbox" id="agree-checkbox">
                 I agree to the <a href="Policy.md" target="_blank">Terms and Conditions</a>.
             </label>
-            <button id="submit-btn" onclick="submitAgreement()">Submit</button>
+            <button id="submit-btn" onclick="submitAgreement()">Agree</button>
         </div>
         <form id="search-form" >
             <div class="search-box">
                 <input type="text" id="search-input" name="query" placeholder="Type here to search...." required >
                 <p></p>
-                <button type="submit" id="search-button" >Search</button>
+                <button type="submit" id="search-button" style="color: orange;">Search</button>
                 <a class="changelog" href="changelog.html" id="changelog-link" >v1.3.4-alpha</a>
                 <a class="wiki-button" href="Wiki/index.html" >Wiki</a>
                 <a class="download" href="downloads.html" id="download-link" ><img src="Images/Downloads icon Halloween.png" width="112" height="20"></a>
@@ -40,8 +40,6 @@
     <script>
     console.log("Welcome to DOOMNET ENGINE");
     console.log("UPDATE PHASE CHRISTMAS PLANNING");
-    console.log(".... . .-.. .-.. --- / - .... .. ... / .. ... / -.. --- --- -- -. . - .-.-.- / - .... . / -. --- ...- . -- -... . .-. / ..- .--. -.. .- - . / .. ... / -.-. .- .-.. .-.. . -.. / ..-. .. .-. . .-. -.-- / ..-. .. .-. . .--. --- .-- -.. . .-. -.-.-- -.-.-- -.-.--");
-    console.log("ounfdvmFIVHbnmM5J8DpPnMxeWrDkAZiFq9EWWIgML8Lmnef8szWnlBu0L+BZiqfFZb21hxYYuPEZukWiUOD9kf0sDp7poSE9FWJu6pxm3M=");
     document.getElementById('search-form').addEventListener('submit', function(e) {
         e.preventDefault();
         var query = document.getElementById('search-input').value.toLowerCase();
@@ -60,7 +58,7 @@
             })
             .catch(error => {
                 console.error('Error:', error);
-                document.getElementById('search-results').innerHTML = 'An error occurred while searching.';
+                document.getElementById('search-results').innerHTML = 'An error occurred while searching. Try again later';
             });
     }
 
