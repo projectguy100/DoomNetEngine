@@ -31,7 +31,13 @@ middlebutton {
 .wiki-button{
   position: fixed;
   bottom: 10px;
-  left: 125px;
+  left: 110px;
+}
+
+.google-forms{
+  position: fixed;
+  bottom: 10px;
+  left: 140px;
 }
 
 #Site-List {

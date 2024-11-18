@@ -24,11 +24,18 @@ This is a list of what might be added for the next update, approx release dates,
 
 **November Update [Firework update 1]**
 **_Release date (approx may be not accurate): 10th November 2024 or earlier_**
-- Fireworks
-- Nice animations
+- Fireworks ✘
+- Nice animations ✘
+- More js ✘
+- Remove Halloween themes icons and stuff {Place in Contents/Archive folder} ✓✓✓
+- Add feedback and add URL form - https://forms.gle/CeeCBtmhvBUeCHnK9 ✘
+
+**Christmas Update [Update 1]**
+- Christmas icons and banners ✓✓✓
+- Add feedback and add URL form - https://forms.gle/CeeCBtmhvBUeCHnK9 
 - More js
-- Remove Halloween themes icons and stuff {Place in Contents/Archive folder}
-- Add feedback and add URL form - https://forms.gle/CeeCBtmhvBUeCHnK9
+- Snowflakes - [IN PROGRESS]
+- Christmas background music
 
 **Notes**
 - Add a 404 page ✓✓✓
