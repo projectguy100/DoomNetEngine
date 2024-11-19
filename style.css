@@ -6,7 +6,7 @@ middlebutton {
 
 .calculator{
   position: fixed;
-  bottom: 500px;
+  top: 10px;
   left: 10px;
 }
 
