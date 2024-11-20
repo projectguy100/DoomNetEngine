@@ -26,7 +26,7 @@
         <form id="search-form" >
             <div class="search-box">
                 <input type="text" id="search-input" name="query" placeholder="Type here to search...." required >
-                <p></p>
+                <br>
                 <button type="submit" id="search-button" style="color: orange;">Search</button>
                 <a class="changelog" href="changelog.html" id="changelog-link" >v1.3.4-alpha</a>
                 <a class="wiki-button" href="Wiki/index.html" >Wiki</a>
@@ -36,6 +36,7 @@
                 <a class="google-forms" href="https://forms.gle/CeeCBtmhvBUeCHnK9">Google forms</a>
             </div>
         </form>
+        <br>
         <a href="History/search-history.html" class="btn btn-secondary">View Search History</a>
     </div>
     <div id="search-results"></div>
@@ -68,7 +69,7 @@
         var resultsDiv = document.getElementById('search-results');
         resultsDiv.innerHTML = '';
         if (results.length === 0) {
-            resultsDiv.innerHTML = 'No results found.';
+            resultsDiv.innerHTML = 'No results found. Try submitting it via the google forms.';
         } else {
             var ul = document.createElement('ul');
             results.forEach(function(result) {
