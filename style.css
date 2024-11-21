@@ -72,7 +72,7 @@ body {
             align-items: center;
             min-height: 100vh;
             margin: 0;
-            background-color: #740521;
+            background-image: url("christmassy.jpg");
         }
         .search-container {
             text-align: center;
