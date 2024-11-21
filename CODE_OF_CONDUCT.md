@@ -78,11 +78,11 @@ This code of conduct and its related procedures also applies to unacceptable beh
 
 If possible please try and contact us at doomnet-team@outlook.com but if we do not respond please try a secondary email provided.
 
-  <h2>Primary Contact</h2>
+  <h4>Primary Contact</h4>
    
   * doomnet-team@outlook.com
 
-  <h2>Secondary Contacts</h2>
+  <h4>Secondary Contacts</h4>
 
    * bitsandgizmosrepairco@gmail.com
    * thegeek1307@gmail.com
