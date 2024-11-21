@@ -183,5 +183,25 @@
     "title": "Habstube",
     "url": "https://habstube.habselstree.org.uk/Default.aspx?show=cats",
     "content": "Habstube"
+  },
+  {
+    "title": "Discord",
+    "url": "https://discord.com",
+    "content": "Discord website"
+  },
+  {
+    "title": "Discord login",
+    "url": "https://discord.com/login",
+    "content": "Discord login site"
+  },
+  {
+    "title": "ntlite",
+    "url": "https://www.ntlite.com/",
+    "content": "Customise ISO files site"
+  },
+  {
+    "title": "Internet archive",
+    "url": "https://archive.org",
+    "content": "Internet archive"
   }
 ]
