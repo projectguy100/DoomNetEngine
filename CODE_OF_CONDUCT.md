@@ -76,7 +76,17 @@ This code of conduct and its related procedures also applies to unacceptable beh
 
 ## 10. Contact info
 
-doomnet-team@outlook.com
+If possible please try and contact us at doomnet-team@outlook.com but if we do not respond please try a secondary email provided.
+
+  <h2>Primary Contact</h2>
+   
+  * doomnet-team@outlook.com
+
+  <h2>Secondary Contacts</h2>
+
+   * bitsandgizmosrepairco@gmail.com
+   * thegeek1307@gmail.com
+   * projectguy100@gmail.com / projectguy100@outlook.com
 
 ## 11. License and attribution
 
