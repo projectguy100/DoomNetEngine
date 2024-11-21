@@ -9,7 +9,7 @@
 body {
     position: relative;
     height: 100vh;
-    background-color: #740521; /* A dark background for better visibility */
+    background-image: url("christmassy.jpg"); /* A dark background for better visibility */
     overflow: hidden; /* Prevent the page from scrolling */
 }
 
