@@ -96,8 +96,8 @@ body {
         #search-button {
             padding: 10px 20px;
             font-size: 16px;
-            background-color: #4CAF50;
-            color: white;
+            background-color: #ffd900;
+            color: rgb(41, 41, 41);
             border: none;
             border-radius: 0 4px 4px 0;
             cursor: pointer;
