@@ -64,7 +64,7 @@ Additionally, community organizers are available to help community members engag
 
 ## 8. Addressing Grievances
 
-If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify Projectguy100 with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing policies. [Policy](https://projectguy100.github.io/DoomNetEngine/Policy.md)
+If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify Projectguy100 or TheGeek1307 with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing policies. [Policy](https://projectguy100.github.io/DoomNetEngine/Policy.md)
 
 Follow the policy
 
