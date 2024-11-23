@@ -81,12 +81,12 @@ If possible please try and contact us at doomnet-team@outlook.com but if we do n
   <h4>Primary Contact</h4>
    
   * doomnet-team@outlook.com
+  * projectguy100@outlook.com (CEO, Founder)
 
   <h4>Secondary Contacts</h4>
-
-   * bitsandgizmosrepairco@gmail.com
+  
+   * projectguy100@gmail.com
    * thegeek1307@gmail.com
-   * projectguy100@gmail.com / projectguy100@outlook.com
 
 ## 11. License and attribution
 
