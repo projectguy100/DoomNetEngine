@@ -13,7 +13,7 @@ body {
     overflow: hidden; /* Prevent the page from scrolling */
 }
 
-#snowfall-container {
+.snowfall-container {
     position: absolute;
     top: 0;
     left: 0;
