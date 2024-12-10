@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const delay = Math.random() * 5;
         snowflake.style.animationDelay = `${delay}s`;
 
-        // Log to make sure snowflakes are created
+        // Log snowflake creation for debugging
         console.log('Snowflake created:', snowflake);
     }
 });
