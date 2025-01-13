@@ -101,9 +101,6 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  background-image: url('Images/christmas-pixelart.png'); /* Ensure this path is correct */
-  background-size: cover; /* Optional: makes the background cover the entire screen */
-  background-position: center center; /* Optional: center the background image */
 }
 
 .search-container {
