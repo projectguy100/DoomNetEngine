@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+}
+
+#builder {
+    width: 70%;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+#toolbar {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.draggable {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+
+#canvas-container {
+    position: relative;
+    width: 100%;
+    height: 600px; /* Adjust as needed */
+}
+
+#preview-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+#preview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px dashed #999;
+    box-sizing: border-box;
+}
+
+#properties {
+    width: 30%;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.selected {
+    border: 2px solid blue;
+}
+
+.preview-element {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    position: absolute;
+}

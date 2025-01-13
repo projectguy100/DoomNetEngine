@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Website Builder with Canvas</title>
+    <link rel="stylesheet" href="Sites/websitebuilderstyle.css">
+</head>
+<body>
+    <h1>SCREW THIS ALL OVER IT DOESNT WORK. hehehehheheheheheheheehheheh</h1>
+    <div id="builder">
+        <div id="toolbar">
+            <div class="draggable" draggable="true" data-type="h1">Heading</div>
+            <div class="draggable" draggable="true" data-type="p">Paragraph</div>
+            <div class="draggable" draggable="true" data-type="img">Image</div>
+        </div>
+        <div id="canvas-container">
+            <canvas id="preview-canvas"></canvas>
+            <div id="preview" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <!-- Preview area -->
+            </div>
+        </div>
+    </div>
+    <div id="properties">
+        <h3>Element Properties</h3>
+        <label for="elementText">Text:</label>
+        <input type="text" id="elementText">
+        <label for="elementColor">Color:</label>
+        <input type="color" id="elementColor">
+        <label for="elementSize">Size:</label>
+        <input type="range" id="elementSize" min="10" max="100" value="16">
+        <button onclick="applyProperties()">Apply</button>
+    </div>
+    <script src="/Scripts/Archive/WebsiteBuilder/script1.js"></script>
+</body>
+</html>
