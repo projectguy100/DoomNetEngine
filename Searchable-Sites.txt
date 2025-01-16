@@ -1,69 +1,123 @@
-    "Site Name When Searched": "!Perplexity",
-    "Keywords": "Perplexity page"
-
-
-    "Site Name When Searched": "Habs login site",
-    "Keywords": "Habs login page"
-
-
-    "Site Name When Searched": "Focus on Sound",
-    "Keywords": "Focus on Sound"
-
-
-    "Site Name When Searched": "Habs Library",
-    "Keywords": "Habs Library/catalogue"
-
-
-    "Site Name When Searched": "SOCS",
-    "Keywords": "Habs SOCS"
-
-
-    "Site Name When Searched": "Habs Archive Catalogue",
-    "Keywords": "Habs Archive Catalogue"
-
-
-    "Site Name When Searched": "Habs Online Resources",
-    "Keywords": "Habs Online Resources"
-
-
-    "Site Name When Searched": "Firefly",
-    "Keywords": "Habs Firefly"
-
-    "Site Name When Searched": "Habs Boys Blog",
-    "Keywords": "Habs Boys Blog"
-    
- 
-    "Site Name When Searched": "Habs Exam Resources",
-    "Keywords": "Habs Exam Resources"
-    
-    
-    "Site Name When Searched": "Office",
-    "Keywords": "Habs Office Login"
-
-
-    "Site Name When Searched": "Microsoft teams",
-    "Keywords": "Microsoft teams for habs"
-
-    
-    "Site Name When Searched": "Youtube",
-    "Keywords": "Youtube"
-
-    
-    "Site Name When Searched": "Credits",
-    "Keywords": "DoomNet Engine credits"
-
-    
-    "Site Name When Searched": "Gomoku",
-    "Keywords": "Online Gomoku"
-
-    "Site Name When Searched": "Chess.com",
-    "Keywords": "Chess.com","Chess","chess"
-
-    "Site Name When Searched": "ChatGPT",
-    "Keywords": "chatgpt","ChatGPT"
-
-    "Site Name When Searched": "Perplexity AI",
-    "Keywords": "Perplexity"
-
-    "Site Name When Searched": "Copilot AI",
-    "Keywords": "Copilot"
+---------------------------------------------------------------
+    "Site Name": "!Perplexity",
+    "url": "Sites/!perplexity.html",
+    "content": "Perplexity page",
+    "keywords": ["Perplexity"]
+---------------------------------------------------------------
+    "Site Name": "Wikipedia",
+    "url": "https://www.wikipedia.org/",
+    "content": "Wikipedia"
+---------------------------------------------------------------
+    "Site Name": "Wikiversity",
+    "url": "https://www.wikiversity.org/",
+    "content": "Wikiversity"
+---------------------------------------------------------------
+    "Site Name": "Wikibooks",
+    "url": "https://www.wikibooks.org/",
+    "content": "Wikibooks"
+---------------------------------------------------------------
+    "Site Name": "Wikinews",
+    "url": "https://www.wikinews.org/",
+    "content": "Wikinews"
+---------------------------------------------------------------
+    "Site Name": "Wiktionary",
+    "url": "https://www.wiktionary.org/",
+    "content": "Wiktionary"
+---------------------------------------------------------------
+    "Site Name": "Focus on Sound",
+    "url": "https://fosuk.server1.apps.focusonsound.com/",
+    "content": "Focus focus on On sound Sound",
+    "keywords": ["Focus on Sound"]
+---------------------------------------------------------------
+    "Site Name": "Searchable Site List",
+    "url": "Searchable-Sites.md",
+    "content": "Searchable Site Name List"
+---------------------------------------------------------------
+    "Site Name": "Site list download",
+    "url": "downloads.html",
+    "content": "Searchable Site List Download"
+---------------------------------------------------------------
+    "Site Name": "Habs login site",
+    "url": "https://hbp1rv.mimo.run/index.html",
+    "content": "Habs login page",
+    "keywords": ["Habs login page"]
+---------------------------------------------------------------
+    "Site Name": "Habs Library",
+    "url": "https://haber.cirqahosting.com/",
+    "content": "Habs Library/catalogue",
+    "keywords": ["Habs Library/catalogue"]
+---------------------------------------------------------------
+    "Site Name": "SOCS",
+    "url": "https://www.socscms.com/login/129/?logout=1&lt=pupil",
+    "content": "Habs SOCS",
+    "keywords": ["Habs SOCS"]
+---------------------------------------------------------------
+    "Site Name": "Habs Archive Catalogue",
+    "url": "https://calm-sh67.axiell.net/",
+    "content": "Habs Archive Catalogue",
+    "keywords": ["Habs Archive Catalogue"]
+---------------------------------------------------------------
+    "Site Name": "Habs Online Resources",
+    "url": "https://habselstreeschools.fireflycloud.net/habs-boys-library/online-resources",
+    "content": "Habs Online Resources",
+    "keywords": ["Habs Online Resources"]
+---------------------------------------------------------------
+    "Site Name": "Firefly",
+    "url": "https://habselstreeschools.fireflycloud.net/login/login.aspx?prelogin=https%3a%2f%2fhabselstreeschools.fireflycloud.net%2f",
+    "content": "Habs Firefly",
+    "keywords": ["Habs Firefly"]
+---------------------------------------------------------------
+    "Site Name": "Habs Boys Blog",
+    "url": "https://habselstreeschools.fireflycloud.net/blogs-1",
+    "content": "Habs Boys Blog",
+    "keywords": ["Habs Boys Blog"]
+---------------------------------------------------------------
+    "Site Name": "Habs Exam Resources",
+    "url": "https://habselstreeschools.fireflycloud.net/exam-resources-1",
+    "content": "Habs Exam Resources",
+    "keywords": ["Habs Exam Resources"]
+---------------------------------------------------------------
+    "Site Name": "Office",
+    "url": "https://www.office.com/?auth=2",
+    "content": "Habs Office Login",
+    "keywords": ["Habs Office Login"]
+---------------------------------------------------------------
+    "Site Name": "Microsoft teams",
+    "url": "https://teams.microsoft.com/v2/?clientexperience=t2",
+    "content": "Microsoft teams for habs",
+    "keywords": ["Microsoft teams for habs"]
+---------------------------------------------------------------
+    "Site Name": "Gomoku",
+    "url": "https://gomokuonline.com",
+    "content": "Online Gomoku",
+    "keywords": ["Online Gomoku"]
+---------------------------------------------------------------
+    "Site Name": "Credits",
+    "url": "Content/Credits.txt",
+    "content": "DoomNet Engine credits",
+    "keywords": ["DoomNet Engine credits"]
+---------------------------------------------------------------
+    "Site Name": "Youtube",
+    "url": "https://youtu.be",
+    "content": "YouTube",
+    "keywords": ["Youtube"]
+---------------------------------------------------------------
+    "Site Name": "Chess.com",
+    "url": "https://chess.com",
+    "content": "chess.com",
+    "keywords": ["Chess.com", "Chess", "chess"]
+---------------------------------------------------------------
+    "Site Name": "ChatGPT",
+    "url": "https://chat.openai.com",
+    "content": "ChatGPT",
+    "keywords": ["chatgpt", "ChatGPT"]
+---------------------------------------------------------------
+    "Site Name": "Perplexity Ai",
+    "url": "https://perplexity.ai",
+    "content": "Perplexity AI",
+    "keywords": ["Perplexity"]
+---------------------------------------------------------------
+    "Site Name": "Copilot",
+    "url": "https://copilot.microsoft.com",
+    "content": "Copilot",
+    "keywords": ["Copilot"]
