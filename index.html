@@ -35,12 +35,11 @@
                 <a id="Site-List" href="Searchable-Sites.txt" id="site-list-link" >Searchable Sites</a>
                 <a class="google-forms" href="https://forms.gle/CeeCBtmhvBUeCHnK9">Google forms (feedback and bugs)</a>
         <div class="search-results"></div>
-    <script>
+       <script>
     console.log("Welcome to DOOMNET ENGINE");
-    console.log("UPDATE PHASE NO EVENT PLANNING");
-    console.log("Added cleared background");
-    console.log("Removed Snow FX")
-    console.log("Clearing banners/icons")
+    console.log("STANDARD UPDATE, NO LONGER RECIEVING REGULAR UPDATES");
+    console.log("CHRISTMAS DECORATIONS CLEARED");
+    console.log("NEXT EVENT UPDATE: EASTER");
     document.getElementById('search-form').addEventListener('submit', function(e) {
         e.preventDefault();
         var query = document.getElementById('search-input').value.toLowerCase();
@@ -59,7 +58,7 @@
             })
             .catch(error => {
                 console.error('Error:', error);
-                document.getElementById('search-results').innerHTML = 'An internal error occurred while searching. Try again later';
+                document.getElementById('search-results').innerHTML = 'An error occurred while searching.';
             });
     }
 
@@ -67,7 +66,7 @@
         var resultsDiv = document.getElementById('search-results');
         resultsDiv.innerHTML = '';
         if (results.length === 0) {
-            resultsDiv.innerHTML = 'No results found. Try submitting it via the google forms.';
+            resultsDiv.innerHTML = 'No results found.';
         } else {
             var ul = document.createElement('ul');
             results.forEach(function(result) {
