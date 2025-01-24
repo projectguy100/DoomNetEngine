@@ -1,3 +1,93 @@
+// Canvas setup
+const canvas = document.getElementById('preview-canvas');
+const ctx = canvas.getContext('2d');
+let selectedElement = null;
+
+function resizeCanvas() {
+    const container = document.getElementById('canvas-container');
+    canvas.width = container.offsetWidth;
+    canvas.height = container.offsetHeight;
+    drawCanvas();
+}
+
+window.addEventListener('load', resizeCanvas);
+window.addEventListener('resize', resizeCanvas);
+
+function drawCanvas() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    // Add grid lines
+    ctx.strokeStyle = '#e0e0e0';
+    ctx.lineWidth = 1;
+    const gridSize = 20;
+    for (let x = 0; x <= canvas.width; x += gridSize) {
+        ctx.beginPath();
+        ctx.moveTo(x, 0);
+        ctx.lineTo(x, canvas.height);
+        ctx.stroke();
+    }
+    for (let y = 0; y <= canvas.height; y += gridSize) {
+        ctx.beginPath();
+        ctx.moveTo(0, y);
+        ctx.lineTo(canvas.width, y);
+        ctx.stroke();
+    }
+}
+
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.dataset.type || ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    const type = ev.dataTransfer.getData("text");
+    if (type.startsWith('element-')) {
+        // Move existing element
+        const element = document.getElementById(type);
+        element.style.left = `${ev.clientX - ev.target.getBoundingClientRect().left}px`;
+        element.style.top = `${ev.clientY - ev.target.getBoundingClientRect().top}px`;
+    } else {
+        // Create new element
+        addElement(type, ev.clientX, ev.clientY);
+    }
+}
+
+function addElement(type, x, y) {
+    const preview = document.getElementById('preview');
+    let element;
+
+    switch(type) {
+        case 'h1':
+            element = document.createElement('h1');
+            element.textContent = 'Heading';
+            break;
+        case 'p':
+            element = document.createElement('p');
+            element.textContent = 'Paragraph text';
+            break;
+        case 'img':
+            element = document.createElement('img');
+            element.src = 'https://via.placeholder.com/150';
+            element.alt = 'Placeholder image';
+            break;
+    }
+
+    element.className = 'preview-element';
+    element.style.left = `${x - preview.getBoundingClientRect().left}px`;
+    element.style.top = `${y - preview.getBoundingClientRect().top}px`;
+    element.id = `element-${Date.now()}`; // Unique ID for each element
+
+    element.onclick = function(e) {
+        e.stopPropagation();
+        selectElement(this);
+    };
+
+    element.draggable = true;
+    element.ondragstart = drag;
+
     preview.appendChild(element);
     selectElement(element);
 }
