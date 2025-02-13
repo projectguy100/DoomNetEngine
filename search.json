@@ -209,5 +209,35 @@
     "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "content": "Rickrolltopia"
   }
+  {
+    "title": "Exel",
+    "url": "https://excel.cloud.microsoft/",
+    "content": "Microsoft Exel"
+  },
+  {
+    "title": "Word",
+    "url": "https://word.cloud.microsoft/",
+    "content": "Microsoft Word"
+  },
+  {
+    "title": "Powerpoint",
+    "url": "https://powerpoint.cloud.microsoft/",
+    "content": "Microsoft Powerpoint"
+  },
+  {
+    "title": "Mozilla Firefox",
+    "url": "https://mozilla.org",
+    "content": "OperaGX"
+  },
+  {
+    "title": "Google Labs",
+    "url": "https://labs.google",
+    "content": "Google Labs"
+  },
+  {
+    "title": "Adobe",
+    "url": "https://adobe.com",
+    "content": "Adobe"
+  }
 ]
 
