@@ -37,6 +37,13 @@ This is a list of what might be added for the next update, approx release dates,
 - Snowflakes - [IN PROGRESS]
 - Christmas background music
 
+**Version 1.7**
+- Music Player
+- More links
+- Customisation
+- Sounds
+- AND MORE!
+
 **Notes**
 - Add a 404 page ✓✓✓
 - Make the main branch deploy as index.html ✓✓✓

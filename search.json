@@ -231,13 +231,23 @@
   },
   {
     "title": "Google Labs",
-    "url": "https://labs.google",
+    "url": "https://labs.google.com",
     "content": "Google Labs"
   },
   {
     "title": "Adobe",
     "url": "https://adobe.com",
     "content": "Adobe"
+  },
+  {
+    "title": "Ai studio",
+    "url": "https://aistudio.google.com",
+    "content": "Google Ai Studio"
+  },
+  {
+    "title": "Deepseek",
+    "url": "https://chat.deepseek.com",
+    "content": "DeepSeek Ai"
   }
 ]
 
